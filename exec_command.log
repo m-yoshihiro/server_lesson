@@ -1,0 +1,84 @@
+    1  ls
+    2  ls /
+    3  pwd
+    4  wxir
+    5  exit
+    6  exit
+    7  ls
+    8  cd /root
+    9  ;s
+   10  s
+   11  ls
+   12  cl
+   13  clear
+   14  mkdir server_lesson && cd server_lesson
+   15  ls
+   16  yum update -y && yum -y install git
+   17  git version
+   18  ls
+   19  git init
+   20  ls -a
+   21  touch first.txt
+   22  ls
+   23  clear
+   24  mkdir linux_practice1
+   25  ls
+   26  mkdir linux_practice1/public
+   27  ls
+   28  touch linux_practice1/public/index.php
+   29  cp linux_practice1/public/index.php linux_practice1/public/index_bk.php
+   30  ls linux_practice1/public/index
+   31  ls linux_practice1/public/
+   32  clear
+   33  ls
+   34  ls
+   35  ls
+   36  cp linux_practice1/public/ linux_practice1/tmp
+   37  ls linux_practice1/
+   38  cp -r linux_practice1/public/ linux_practice1/tmp
+   39  rm linux_practice1/tmp/index_bk.php 
+   40  ls linux_practice1/tmp/
+   41  rm linux_practice1/tmp/index_bk.php 
+   42  ls linux_practice1/tmp/
+   43  jjj
+   44  ls
+   45  touch README.md
+   46  ls
+   47  vi README.md 
+   48  mkdir linux_practice2/document
+   49  mkdir linux_practice2 && linux_practice2/document
+   50  mkdir linux_practice2 && mkdir linux_practice2/document
+   51  mkdir linux_practice2
+   52  ls
+   53  cd linux_practice
+   54  ls
+   55  cd linux_practice2/
+   56  ls
+   57  cd ../
+   58  ls
+   59  mkdir linux_practice2/documents
+   60  ls
+   61  ls linux_practice2/documents/
+   62  clear
+   63  touch linux_practice2/documents/gizumo{01..50}.md
+   64  ls linux_practice2/documents/
+   65  mkdir linux_practice2/trash
+   66  ls
+   67  ls linux_practice2/
+   68  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+   69  ls linux_practice2/documents/
+   70  ls linux_practice2/trash/
+   71  touch linux_practice2/.gitignore
+   72  ls linux_practice
+   73  ls linux_practice/
+   74  ls linux_practice2/
+   75  ls -la linux_practice2/
+   76  vi linux_practice2/.gitignore 
+   77  git status
+   78  ls
+   79  ls -la
+   80  ls linux_practice2/
+   81  history 300
+   82  echo history 300 >> exec_command.log
+   83  less exec_command.log 
+   84  history 300 > exec_command.log
